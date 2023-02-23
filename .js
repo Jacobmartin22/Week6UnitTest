@@ -47,9 +47,7 @@ function deal() {
 	playerCard = playerHand[0];
 	compCard = compHand[0];
 
-	//creates an image element for the current card in each hand
-	var img = document.createElement('img');
-	var img2 = document.createElement('img');
+
 
 	img.src = ("img/cards/" + playerHand[0] + ".png");
 	img2.src = ("img/cards/" + compHand[0] + ".png");
